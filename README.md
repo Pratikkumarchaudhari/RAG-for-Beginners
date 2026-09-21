@@ -1,1 +1,1 @@
-# Pratikkumarchaudhari-RAG-for-Beginners
+# RAG-for-Beginners
