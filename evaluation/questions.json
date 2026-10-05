@@ -1,0 +1,10 @@
+[
+  {"question":"Who approves access to a dataset?","expected_source":"access_management.md","answerable":true},
+  {"question":"How often is access reviewed?","expected_source":"access_management.md","answerable":true},
+  {"question":"What information belongs in a data issue record?","expected_source":"data_issues.md","answerable":true},
+  {"question":"When should a critical data issue be escalated?","expected_source":"data_issues.md","answerable":true},
+  {"question":"What does completeness measure?","expected_source":"data_quality.md","answerable":true},
+  {"question":"Does a postal code format check prove that an address exists?","expected_source":"data_quality.md","answerable":true},
+  {"question":"What is the cafeteria lunch menu?","expected_source":null,"answerable":false},
+  {"question":"What is the CEO salary?","expected_source":null,"answerable":false}
+]
