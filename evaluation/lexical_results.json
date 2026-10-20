@@ -1,0 +1,88 @@
+{
+  "method": "BM25 lexical baseline; NOT semantic embeddings or generation",
+  "top_k": 3,
+  "min_score": 0.2,
+  "chunks": 6,
+  "answerable_hits": 6,
+  "answerable_total": 6,
+  "absent_rejections": 2,
+  "absent_total": 2,
+  "results": [
+    {
+      "question": "Who approves access to a dataset?",
+      "expected_source": "access_management.md",
+      "answerable": true,
+      "sources": [
+        "access_management.md",
+        "access_management.md",
+        "data_issues.md"
+      ],
+      "passed": true
+    },
+    {
+      "question": "How often is access reviewed?",
+      "expected_source": "access_management.md",
+      "answerable": true,
+      "sources": [
+        "access_management.md",
+        "access_management.md"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What information belongs in a data issue record?",
+      "expected_source": "data_issues.md",
+      "answerable": true,
+      "sources": [
+        "data_issues.md",
+        "access_management.md",
+        "data_issues.md"
+      ],
+      "passed": true
+    },
+    {
+      "question": "When should a critical data issue be escalated?",
+      "expected_source": "data_issues.md",
+      "answerable": true,
+      "sources": [
+        "data_issues.md",
+        "data_issues.md",
+        "access_management.md"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What does completeness measure?",
+      "expected_source": "data_quality.md",
+      "answerable": true,
+      "sources": [
+        "data_quality.md"
+      ],
+      "passed": true
+    },
+    {
+      "question": "Does a postal code format check prove that an address exists?",
+      "expected_source": "data_quality.md",
+      "answerable": true,
+      "sources": [
+        "data_quality.md",
+        "data_quality.md"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What is the cafeteria lunch menu?",
+      "expected_source": null,
+      "answerable": false,
+      "sources": [],
+      "passed": true
+    },
+    {
+      "question": "What is the CEO salary?",
+      "expected_source": null,
+      "answerable": false,
+      "sources": [],
+      "passed": true
+    }
+  ]
+}

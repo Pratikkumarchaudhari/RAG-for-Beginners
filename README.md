@@ -6,6 +6,10 @@ A beginner portfolio project that retrieves evidence from documents and uses a *
 
 **Status:** implementation added; see [validation](documentation/VALIDATION.md) for checks actually completed. Local model generation must be verified on the computer running Ollama. MCP is a future extension, not an implemented feature.
 
+## Portfolio walkthrough and keyword baseline
+
+See [the interview case study](documentation/PORTFOLIO_CASE_STUDY.md) and run `python lexical_baseline.py` for a dependency-free BM25 retrieval comparison. Its measured source hits are recorded separately from semantic retrieval and generated answer quality.
+
 ## What you can learn
 
 - Read TXT, Markdown, and text based PDFs; preserve source and page metadata.
@@ -109,3 +113,4 @@ An unsupported question may retrieve a vaguely related passage. Prompting and a 
 ## References and attribution
 
 Original implementation developed with AI assistance; repository owner should review and explain the code before claiming independent expertise. Learning references: [LangChain RAG from Scratch](https://github.com/langchain-ai/rag-from-scratch), [LlamaIndex](https://github.com/run-llama/llama_index), and official tool documentation linked in the comparison. No tutorial repository was copied or forked to represent original work.
+
