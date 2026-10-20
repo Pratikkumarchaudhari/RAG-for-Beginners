@@ -2,6 +2,8 @@
 
 A beginner portfolio project that retrieves evidence from documents and uses a **local language model** to answer questions with source references. Built with Python, Streamlit, Sentence Transformers, Chroma, and Ollama. No paid APIs, cloud inference, or hosting are required.
 
+**Portfolio:** [View my Data Governance, Analytics & AI portfolio](https://pratikkumar-data-ai-portfolio.woollydog11.chatgpt.site) · [Connect on LinkedIn](https://www.linkedin.com/in/pratikkumarchaudhari/)
+
 **Status:** implementation added; see [validation](documentation/VALIDATION.md) for checks actually completed. Local model generation must be verified on the computer running Ollama. MCP is a future extension, not an implemented feature.
 
 ## What you can learn
