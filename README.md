@@ -38,7 +38,15 @@ Checks cover suggested-question answers, exact source support, out-of-corpus que
 - Send retrieved evidence to a local model and display supporting passages.
 - Evaluate retrieval separately from generated answer quality.
 
-The default corpus contains **fictional governance procedures**, not DFS documents. Your original company examples remain in `docs/`; use `--documents docs` to index them instead. Review their accuracy and redistribution rights before using those examples in a portfolio demo.
+The default corpus contains exactly three **fictional governance procedures**, not DFS documents:
+
+| File | Contents |
+|---|---|
+| `sample_documents/access_management.md` | Access requests, approvals, roles, least privilege, and access reviews |
+| `sample_documents/data_issues.md` | Issue recording, escalation, remediation, and closure |
+| `sample_documents/data_quality.md` | Quality dimensions, validation rules, and address checks |
+
+`sample_documents/` is the question-answering source collection. `documentation/` contains project explanations and learning guides; those files are not indexed by default. The former `docs/` company-information collection has been removed because it is unnecessary for this governance project. To add your own public or fictional material, use the document-folder setting or the instructions below.
 
 ## Requirements
 

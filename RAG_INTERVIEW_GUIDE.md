@@ -54,7 +54,7 @@ The default folder is [sample_documents/](sample_documents/):
 - `data_issues.md`: issue records, escalation, remediation, and closure.
 - `data_quality.md`: completeness, uniqueness, validity, consistency, timeliness, and address checks.
 
-These are fictional learning procedures, not employer policies. The application reads the folder you select; it does not automatically scan your laptop. The older `docs/` collection is an optional alternate input, not the default. Review its contents and redistribution rights before sharing it.
+These are fictional learning procedures, not employer policies. The application reads the folder you select; it does not automatically scan your laptop. The default source collection is only these three files in `sample_documents/`. Project explanations live in `documentation/` and are not indexed by default. The older `docs/` company-information collection has been removed to keep this governance project focused.
 
 For TXT/Markdown, page metadata is 1. PDF references use physical page numbers. Scanned image PDFs need OCR, which is not implemented.
 
