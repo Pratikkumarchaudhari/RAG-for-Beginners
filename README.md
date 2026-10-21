@@ -10,6 +10,22 @@ A beginner portfolio project that retrieves evidence from documents and uses a *
 
 See [the interview case study](documentation/PORTFOLIO_CASE_STUDY.md) and run `python lexical_baseline.py` for a dependency-free BM25 retrieval comparison. Its measured source hits are recorded separately from semantic retrieval and generated answer quality.
 
+## Live question-and-answer demo
+
+**[Open the live governance Q&A](https://pratikkumar-data-ai-portfolio.woollydog11.chatgpt.site/demos/local-governance-rag.html)**
+
+Select one of eight suggested questions or type your own. The browser searches three fictional governance documents and returns a complete source sentence, a citation, and inspectable evidence. Unsupported questions receive an abstention response. Clear resets the conversation; questions are not sent to a chat backend.
+
+This free public mode uses lexical retrieval plus extractive answers. It does not run MiniLM, Chroma, or an LLM in the browser. Use the local Streamlit/Ollama instructions below for the full semantic retrieval and model generation application. The demo is a small educational baseline, not an enterprise policy assistant. A conservative vocabulary gate may reject paraphrases, and an extracted sentence may not fully answer a question.
+
+Open `web-demo/index.html` directly for an offline copy after cloning; no package installation is needed for that demo. To run its 11 behavior tests with Node.js:
+
+```bash
+node --test web-demo/tests/qa-engine.test.cjs
+```
+
+Checks cover suggested-question answers, exact source support, out-of-corpus questions, invalid input, and an unseen wording. JavaScript syntax and local asset links passed; browser interaction was not tested in the build workspace.
+
 ## What you can learn
 
 - Read TXT, Markdown, and text based PDFs; preserve source and page metadata.
