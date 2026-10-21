@@ -1,5 +1,9 @@
 # Data Governance RAG Assistant
 
+## Preparing for an interview?
+
+**[Read the RAG Interview Preparation Guide](RAG_INTERVIEW_GUIDE.md)** — start with the five-minute revision sheet, then review exact chunking settings, embeddings, Chroma, cosine search, prompt construction, Ollama, alternatives, limitations, and interview Q&A. It separately explains the live browser demo.
+
 A beginner portfolio project that retrieves evidence from documents and uses a **local language model** to answer questions with source references. Built with Python, Streamlit, Sentence Transformers, Chroma, and Ollama. No paid APIs, cloud inference, or hosting are required.
 
 **Portfolio:** [View my Data Governance, Analytics & AI portfolio](https://pratikkumar-data-ai-portfolio.woollydog11.chatgpt.site) · [Connect on LinkedIn](https://www.linkedin.com/in/pratikkumarchaudhari/)
